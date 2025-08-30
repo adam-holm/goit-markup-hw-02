@@ -6,32 +6,17 @@ body {
   color: #434455;
   background-color: #fff;
 }
-/* .visually-hidden { 
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
 
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}*/
 /* ------header */
 .header-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16;
-  letter-spacing: 0.03em;
+  line-height: 1.17;
   text-transform: uppercase;
-  color: #2e2f42;
-}
-.header-logo-web {
   color: #4d5ae5;
 }
+
 .header-logo-studio {
   color: #2e2f42;
 }
@@ -59,7 +44,7 @@ body {
 .header-contacts-link:focus {
   color: #404bbf;
 }
-.address {
+.header-contacts {
   font-style: normal;
 }
 /* --------hero */
@@ -187,10 +172,9 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
-}
-.footer-logo-web {
   color: #4d5ae5;
 }
+
 .footer-logo-studio {
   color: #f4f4fd;
 }
